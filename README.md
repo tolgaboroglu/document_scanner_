@@ -1,4 +1,4 @@
-# Document Scanner
+# Document Scanner App
 
 ### Linkedin post :
 Hi,Excited to share a peek at our document scanner app demo—created with a German client. It automates scanning and text conversion from receipts and documents.
