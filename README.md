@@ -16,6 +16,10 @@ Effective planning and data prep are vital for freelance success. Manage project
 * Extra Note: Our web app lets users upload docs, auto-scan, and extract text. An interactive feature allows users to adjust bounding box coordinates after business card detection, personalizing text for easy download and sharing.
 
   
-### Youtube short video about project : https://youtu.be/ihsTjo_Youw
+### Youtube short video about project :
+Part 1 : https://youtu.be/ihsTjo_Youw
+Part 2 : https://youtu.be/OV_yRhQuAfs
+
 ![upload_image_convert_text](https://github.com/tolgaboroglu/document_scanner_/assets/46046034/eec28fb2-c8f5-46d5-91e8-a09a8e507dc8)
 
+![image](https://github.com/tolgaboroglu/document_scanner_/assets/46046034/63be98b8-3e6b-4bec-8143-dfbf243e0807)
