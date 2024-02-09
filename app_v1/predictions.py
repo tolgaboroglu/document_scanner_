@@ -103,6 +103,7 @@ def getPredictions(image):
     right_table = pd.DataFrame(docjson['ents'])[['start','label']]
     datafram_tokens = pd.merge(datafram_tokens,right_table,how='left',on='start')
     datafram_tokens.fillna('O',inplace=True)
+    
 
     # join lable to df_clean dataframe
     df_clean['end'] = df_clean['text'].apply(lambda x: len(x)+1).cumsum() - 1 
@@ -137,11 +138,13 @@ def getPredictions(image):
 
     })
 
-    img_bb = image.copy()
-    for l,r,t,b,label,token in img_tagging.values:
-        cv2.rectangle(img_bb,(l,t),(r,b),(0,255,0),2)
+    img_bb = image.copy() 
+    for l, r, t, b, label, token in img_tagging.values:
+        cv2.rectangle(img_bb, (l, t), (r, b), (0, 255, 0), 2)
+        # Convert label to string explicitly 
+        label_str = str(label)
+        cv2.putText(img_bb, label_str, (l, t), cv2.FONT_HERSHEY_PLAIN, 1, (255, 0, 255), 2)
 
-        cv2.putText(img_bb,label,(l,t),cv2.FONT_HERSHEY_PLAIN,1,(255,0,255),2)
 
 
     # Entities
