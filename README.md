@@ -19,3 +19,4 @@ Effective planning and data prep are vital for freelance success. Manage project
 ### Youtube short video about project : https://youtu.be/ihsTjo_Youw
 ![upload_image_convert_text](https://github.com/tolgaboroglu/document_scanner_/assets/46046034/eec28fb2-c8f5-46d5-91e8-a09a8e507dc8)
 
+![image](https://github.com/tolgaboroglu/document_scanner_/assets/46046034/63be98b8-3e6b-4bec-8143-dfbf243e0807)
